@@ -14,7 +14,7 @@ if (date.getHours() >= 18){
 document.querySelector(".welcome").innerHTML = welcome;
 
 function toHome(){
-    location.href = '/home?' + params;
+    location.href = '/test/home?' + params;
 }
 
 var input = document.querySelector(".password_input");
@@ -72,4 +72,5 @@ eye.addEventListener('click', () => {
         classlist.add("eye_close");
         input.value = original;
     }
+
 })
