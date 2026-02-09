@@ -134,7 +134,7 @@ document.querySelector(".go").addEventListener('click', () => {
     if (empty.length != 0){
         empty[0].scrollIntoView();
     } else {
-        location.href = '/id.html?' + params;
+        location.href = '/test/id.html?' + params;
     }
 });
 
@@ -145,4 +145,5 @@ var guide = document.querySelector(".guide_holder");
 guide.addEventListener('click', () => {
     guide.classList.toggle("unfolded");
 });
+
 
